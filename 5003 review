@@ -1,0 +1,14 @@
+<ul>
+          <li><a href="#student-info">INFO</a></li>
+          <li><a href="#html-questions">HTML</a></li>
+          <li><a href="#css-questions">CSS</a></li>
+        </ul>
+
+<form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+
+<section role="region" aria-labelledby="student-info">
+
+<div class="info">
+            <label for="student-name">Name:</label>
+            <input type="text" name="student-name" id="student-name" placeholder="e.g. Quincy Larson" />
+          </div>
