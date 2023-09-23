@@ -2,7 +2,7 @@
           <li><a href="#student-info">INFO</a></li>
           <li><a href="#html-questions">HTML</a></li>
           <li><a href="#css-questions">CSS</a></li>
-        </ul>
+</ul>
 
 <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
 
@@ -12,3 +12,9 @@
             <label for="student-name">Name:</label>
             <input type="text" name="student-name" id="student-name" placeholder="e.g. Quincy Larson" />
           </div>
+
+p::before {
+  content: "Question #";
+} 
+
+margin: 0 auto 10px auto; <--the margin space around an element in the following order: top, right, bottom, left.-->
