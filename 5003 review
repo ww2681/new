@@ -18,3 +18,5 @@ p::before {
 } 
 
 margin: 0 auto 10px auto; <--the margin space around an element in the following order: top, right, bottom, left.-->
+
+color choice: Adobe color colorhunt.co
